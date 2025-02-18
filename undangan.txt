@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Digital</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            color: #333;
+            padding: 50px;
+            margin: 0;
+        }
+        .invitation {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .invitation h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #5a189a;
+        }
+        .invitation p {
+            font-size: 1.2em;
+            margin: 15px 0;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            background-color: #5a189a;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #7b2cbf;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <h1>You're Invited!</h1>
+        <p>Acara: Ulang Tahun Siti</p>
+        <p>Tanggal: 21 Oktober 2024</p>
+        <p>Waktu: 15.00 WIB</p>
+        <p>Tempat: Rumah Siti, Jl. Anggrek No. 10</p>
+        <a href="https://www.canva.com" class="btn" target="_blank">Lihat Desain di Canva</a>
+    </div>
+</body>
+</html>
